@@ -31,12 +31,12 @@ This is a simple **QR Code Generator** built with Python using the [`qrcode`](ht
 
 ## 🧑‍💻 Usage
 
-1. Run the Python script:
+1. Open the Python script and add your URL or Text:
    ```
-   python QRcode_Gen.py
+   input.py >> img = "ADD YOUR URL/TEXT HERE"
    ```
 
-2. Enter your text or URL when prompted.
+2. Save the file and run ``` python main.py ```
 
 3. A PNG file will be generated in the project directory.
 
@@ -44,8 +44,8 @@ This is a simple **QR Code Generator** built with Python using the [`qrcode`](ht
 
 ```
 qr-code-generator/
-├── qr_generator.py
-├── README.md
+├── input.py
+├── main.py
 └── example_qr.png
 ```
 
